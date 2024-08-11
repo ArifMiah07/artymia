@@ -5,7 +5,7 @@ const NavBar = () => {
 
 
     const navLink = <>
-    <li> <NavLink to={'/'}>Home</NavLink> </li>
+    <li> <NavLink to={'/'}>Explore</NavLink> </li>
     <li> <NavLink to={'/albums'}>Albums</NavLink> </li>
     <li> <NavLink to={'/collections'}>Collections</NavLink> </li>
     <li> <NavLink to={'/styles'}>Styles</NavLink> </li>

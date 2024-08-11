@@ -1,11 +1,16 @@
+
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from "react-router-dom";
 
-const Featured = () => {
+
+const Explore = () => {
     return (
         <div className="relative">
             <div className="absolute inset-0 flex items-center justify-center z-50">
-                <p className="text-3xl">Explore</p>
+                <div className="w-fix p-4 bg-red-500 opacity-80">
+                    <p className="text-3xl"><Link to={'/home'}>Get Start</Link></p>
+                </div>
             </div>
             <div>
             <Carousel
@@ -83,4 +88,4 @@ const Featured = () => {
     );
 };
 
-export default Featured;
+export default Explore;

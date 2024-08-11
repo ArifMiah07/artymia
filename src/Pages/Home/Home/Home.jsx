@@ -1,10 +1,11 @@
-import Featured from "../Featured/Featured";
+// import Explore from "../../Explore/Explore";
+// import Featured from "../Featured/Featured";
 
 
 const Home = () => {
     return (
         <div>
-            <Featured></Featured>
+            This is Home!
         </div>
     );
 };
