@@ -4,7 +4,7 @@ import {
 import Main from "../Layouts/Main/Main";
 import Home from "../Pages/Home/Home/Home";
 import ErrorPage from "../Pages/Shared/ErrorPage/ErrorPage";
-import Explore from "../Pages/Explore/Explore";
+// import Explore from "../Pages/Explore/Explore";
 
   const router = createBrowserRouter([
     {
@@ -14,12 +14,8 @@ import Explore from "../Pages/Explore/Explore";
         children: [
           {
               path: '/',
-              element: <Explore></Explore>
+              element:  <Home></Home>
           },
-          {
-            path: '/home',
-            element: <Home></Home>
-          }
         ]  
     },
   ]);

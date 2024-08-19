@@ -1,11 +1,15 @@
 // import Explore from "../../Explore/Explore";
 // import Featured from "../Featured/Featured";
 
+import Banner from "../Banner/Banner";
+import Featured from "../Featured/Featured";
+
 
 const Home = () => {
     return (
         <div>
-            This is Home!
+            <Banner></Banner>
+            <Featured></Featured>
         </div>
     );
 };
