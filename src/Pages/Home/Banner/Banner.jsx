@@ -3,11 +3,13 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Banner = () => {
     return (
-        <div className="relative group">
+        <div className="mx-auto my-12 drop-shadow-2xl sm:[350px] md:[724px] lg:w-[1024px] xl:[1280px] border-2 border-r-emerald-400">
             {/* Text that will be visible on hover */}
-            <div className="absolute inset-0 flex flex-col p-3 justify-center items-center z-50 transition-opacity duration-300 opacity-0 group-hover:opacity-100">
-                <h1 className="p-5 bg-magenta-breeze text-3xl font-bungeeTint">Welcome to Artymia</h1>
-                <p className="p-5 bg-forest-sunrise mb-8 font-montserrat">Explore our curated collection of standout AI-generated artworks. Discover unique pieces, handpicked for their creativity and impact.</p>
+            <div className="bg-forest-sunrise w-full flex flex-col items-center justify-center text-center ">
+                <h1 className="my-6 text-3xl font-bold font-playfair">Welcome to Artymia</h1>
+                <p className="mb-12 text-white font-newAmsterdam">
+                Explore our curated selection of exceptional artworks, <br />showcasing the finest and most captivating pieces from talented artists worldwide.
+                </p>
             </div>
             {/* Carousel */}
             <div className="relative">
