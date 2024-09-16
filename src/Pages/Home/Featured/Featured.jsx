@@ -42,7 +42,7 @@ const Featured = () => {
                 <div className="mx-auto my-12 drop-shadow-2xl xs:[320px] sm:[450px] md:[724px] lg:w-[1024px] xl:[1280px]  border-2 border-r-emerald-400 ">
                     <ArtPlatforms></ArtPlatforms>
                 </div>
-                <div className='mx-auto my-12 drop-shadow-2xl xs:[320px] sm:[450px] md:[724px] lg:w-[1024px] xl:[1280px]  border-2 border-r-emerald-400 '>
+                <div className=''>
                     <ArtCard></ArtCard>
                 </div>
             </div>
