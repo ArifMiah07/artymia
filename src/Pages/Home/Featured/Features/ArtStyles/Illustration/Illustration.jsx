@@ -4,13 +4,12 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import MiniHeaderCard from '../../../../../../Components/Cards/MiniHeaderCard/MiniHeaderCard';
-import ModalImage from "react-modal-image";
 
 const  Illustration = () => {
     return (
         <>
             <MiniHeaderCard headerText={'Illustration'}></MiniHeaderCard>
-            <div className="relative h-[1024px]"> {/* Constrain the parent container height */}
+            <div className="relative h-[500px]"> {/* Constrain the parent container height */}
                 {/* main swiper */}
                 <Swiper
                     className="mySwiper swiper-h h-full"
@@ -59,11 +58,6 @@ const  Illustration = () => {
                                         </div>
                                         <div>
                                             <img src="https://ideogram.ai/assets/image/lossless/response/eq_Iig4uS-Gw_Fq_tIXpBA" />
-                                            <ModalImage
-                                                small={"https://ideogram.ai/assets/image/lossless/response/eq_Iig4uS-Gw_Fq_tIXpBA"}
-                                                large={"https://ideogram.ai/assets/image/lossless/response/eq_Iig4uS-Gw_Fq_tIXpBA"}
-                                                alt="Hello World!"
-                                                />
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -128,15 +122,6 @@ const  Illustration = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <img src="https://ideogram.ai/api/images/direct/afYh2zK0Q1y7OKvmzeo5gg.jpg" alt="" />
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <img src="https://ideogram.ai/api/images/direct/9-YMd6ytQoGfKfIDnCtzDw.jpg" alt="" />
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <img src="https://ideogram.ai/api/images/direct/Q_kUdJnhRJaI876734Tmfw.jpg" alt="" />
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <img src="https://ideogram.ai/api/images/direct/WLFHmflZR4SGIycLPOMW_w.jpg" alt="" />
                                 </SwiperSlide>
                             </Swiper>
                         </div>

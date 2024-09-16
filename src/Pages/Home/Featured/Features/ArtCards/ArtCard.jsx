@@ -23,25 +23,22 @@ const ArtCard = () => {
                 <section className='border border-gray-700'>
                 <MiniHeaderCard headerText={"Anime"}></MiniHeaderCard>
                     <div className='p-8 border-y-4 border-gray-200'>
-                        <Swiper
+                    <Swiper
                             effect={'cards'}
                             grabCursor={true}
                             modules={[EffectCards]}
                             className="mySwiper"
-                            // Setting explicit width and height
-                            style={{
-                                width: '400px',  // You can customize this value
-                                height: '500px', // Custom height
-                            }}
+                            // No explicit width and height, Tailwind CSS will handle it
+                            style={{ width: '100%', height: 'auto' }}
                         >
                             <SwiperSlide>
-                                <img src={img1} alt="" className="w-full h-full object-cover" />
+                                <img src={img1} alt="" className="w-full h-auto object-cover" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={img2} alt="" className="w-full h-full object-cover" />
+                                <img src={img2} alt="" className="w-full h-auto object-cover" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={img3} alt="" className="w-full h-full object-cover" />
+                                <img src={img3} alt="" className="w-full h-auto object-cover" />
                             </SwiperSlide>
                             {/* Add more SwiperSlide components as needed */}
                         </Swiper>
@@ -52,26 +49,24 @@ const ArtCard = () => {
                 <section className='border border-gray-700 my-12'>
                 <MiniHeaderCard headerText={"Anime"}></MiniHeaderCard>
                     <div className='p-8 border-y-4 border-gray-200'>
-                        <Swiper
+                    <Swiper
                             effect={'cards'}
                             grabCursor={true}
                             modules={[EffectCards]}
                             className="mySwiper"
-                            // Setting explicit width and height
-                            style={{
-                                width: '400px',
-                                height: '500px',
-                            }}
+                            // No explicit width and height, Tailwind CSS will handle it
+                            style={{ width: '100%', height: 'auto' }}
                         >
                             <SwiperSlide>
-                                <img src={img1} alt="" className="w-full h-full object-cover" />
+                                <img src={img1} alt="" className="w-full h-auto object-cover" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={img2} alt="" className="w-full h-full object-cover" />
+                                <img src={img2} alt="" className="w-full h-auto object-cover" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={img3} alt="" className="w-full h-full object-cover" />
+                                <img src={img3} alt="" className="w-full h-auto object-cover" />
                             </SwiperSlide>
+                            {/* Add more SwiperSlide components as needed */}
                         </Swiper>
                     </div>
                 </section>
