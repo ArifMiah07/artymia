@@ -24,80 +24,164 @@ import img9 from '../../../../../assets/images/card-img/9.jpg'
 import img10 from '../../../../../assets/images/card-img/10.jpg'
 import img11 from '../../../../../assets/images/card-img/11.jpg'
 import img12 from '../../../../../assets/images/card-img/12.jpg'
+import HeaderCard from '../../../../../Components/Cards/HeaderCard/HeaderCard';
 
 const ArtCard = () => {
     return (
-        <>
-            <div className='p-24'>
-                <Swiper
-                    effect={'cards'}
-                    grabCursor={true}
-                    modules={[EffectCards]}
-                    className="mySwiper p-0"
-                >
-                    <SwiperSlide>
-                        <div>
-                            <img src={img1} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <img src={img2} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <img src={img3} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <img src={img4} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <img src={img5} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <img src={img6} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <img src={img7} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <img src={img8} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <img src={img9} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <img src={img10} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <img src={img11} alt="" />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <img src={img12} alt="" />
-                        </div>
-                    </SwiperSlide>
-                </Swiper>
-            </div>
-        </>
+        <div className='mb-24'>
+            {/* header section */}
+            <header>
+            <HeaderCard headingText={"Edited Art Collection"}></HeaderCard> 
+            </header>
+            {/* main section */}
+            <main className='px-10'>
+                {/* section 1 */}
+                <section className='border border-gray-700'>
+                    <div className='p-24 border-y-4 border-gray-200'>
+                        <Swiper
+                            effect={'cards'}
+                            grabCursor={true}
+                            modules={[EffectCards]}
+                            className="mySwiper p-0"
+                        >
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img1} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img2} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img3} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img4} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img5} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img6} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img7} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img8} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img9} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img10} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img11} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img12} alt="" />
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
+                    </div>
+                </section>
+                {/* section 2 */}
+                <section className='border border-gray-700 my-12'>
+                    <div className='p-24 border-y-4 border-gray-200'>
+                        <Swiper
+                            effect={'cards'}
+                            grabCursor={true}
+                            modules={[EffectCards]}
+                            className="mySwiper p-0"
+                        >
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img1} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img2} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img3} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img4} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img5} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img6} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img7} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img8} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img9} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img10} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img11} alt="" />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div>
+                                    <img src={img12} alt="" />
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
+                    </div>
+                </section>
+            </main>       
+            
+        </div>
     );
 };
 

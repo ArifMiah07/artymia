@@ -1,16 +1,17 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import HeaderCard from '../../../../Components/Cards/HeaderCard/HeaderCard';
+import HeaderCard from '../../../../../Components/Cards/HeaderCard/HeaderCard';
+// import HeaderCard from '../../../../Components/Cards/HeaderCard/HeaderCard';
 // import Illustration from './ArtStyles/Illustration/Illustration';
 // import MinimalismPointillism from './ArtStyles/MinimalismPointillism/MinimalismPointillism';
 // import Minimalism from './ArtStyles/Minimalism/Minimalism';
 
 
-const PromptEngineering = () => {
+const ArtPlatforms = () => {
     return (
         <>
             <div>
-                <HeaderCard headingText={"Prompt for Masterpieces, Exceptional Artworks"}></HeaderCard>
+                <HeaderCard headingText={"Exceptional Artworks in various Ai Art Platforms"}></HeaderCard>
             </div>
             <div>
                 <Tabs>
@@ -38,4 +39,4 @@ const PromptEngineering = () => {
     );
 };
 
-export default PromptEngineering;
+export default ArtPlatforms;
