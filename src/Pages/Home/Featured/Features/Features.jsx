@@ -9,7 +9,7 @@ import Prompting from '../PromptEngineering/Prompting/Prompting';
 
 const Features = () => {
     return (
-        <div>
+        <div className=''>
             <Tabs>
                 <TabList>
                 <Tab>Illustration</Tab>
