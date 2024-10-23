@@ -1,6 +1,6 @@
+import PropTypes from 'prop-types'
 
-
-const HeaderCard = ({headingText}) => {
+const HeaderCard = ({headingText, }) => {
     return (
         // <div className="mx-auto my-12 drop-shadow-2xl xs:[320px] sm:[450px] md:[724px] lg:w-[1024px] xl:[1280px]  border-2 border-r-emerald-400 ">
         // </div>
@@ -15,3 +15,9 @@ const HeaderCard = ({headingText}) => {
 };
 
 export default HeaderCard;
+
+
+HeaderCard.propTypes = {
+    headingText: PropTypes.string,
+    // bg_clr:PropTypes.string,
+}

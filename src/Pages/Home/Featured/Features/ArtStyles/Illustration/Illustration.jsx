@@ -9,7 +9,7 @@ import './Illustration.css'
 const  Illustration = () => {
     return (
         <>
-            <MiniHeaderCard headerText={'Illustration'}></MiniHeaderCard>
+            <MiniHeaderCard  bg_clr={'bg-blush-dawn'} headerText={'Illustration'}></MiniHeaderCard>
             <div className="relative h-[500px]"> {/* Constrain the parent container height */}
                 {/* main swiper */}
                 <Swiper

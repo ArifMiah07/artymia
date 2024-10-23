@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const Card = ({ image, title, price }) => {
   return (
     <div className="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
@@ -13,3 +15,9 @@ const Card = ({ image, title, price }) => {
 };
 
 export default Card;
+
+Card.propTypes = {
+  image: PropTypes.string,
+  title:PropTypes.string,
+  price:PropTypes.string,
+}

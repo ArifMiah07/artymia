@@ -30,7 +30,7 @@ const ArtCard = () => {
             <main className='px-10'>
                 {/* section 1 */}
                 <section className='border border-gray-700'>
-                <MiniHeaderCard headerText={"Anime"}></MiniHeaderCard>
+                <MiniHeaderCard headerText={"Anime"}  bg_clr={'bg-purple-haze'}></MiniHeaderCard>
                     <div className='p-8 border-y-4 border-gray-200'>
                     <Swiper
                             effect={'cards'}
@@ -83,7 +83,7 @@ const ArtCard = () => {
 
                 {/* section 2 */}
                 <section className='border border-gray-700 my-12'>
-                <MiniHeaderCard headerText={"Anime"}></MiniHeaderCard>
+                <MiniHeaderCard  bg_clr={'bg-cyber-space'} headerText={"Anime"}></MiniHeaderCard>
                     <div className='p-8 border-y-4 border-gray-200'>
                     <Swiper
                             effect={'cards'}

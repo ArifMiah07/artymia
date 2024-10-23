@@ -13,7 +13,9 @@
 // import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 // import MinimalismPointillism from './Features/ArtStyles/MinimalismPointillism/MinimalismPointillism';
 // import Illustration from './Features/ArtStyles/Illustration/Illustration';
+
 import ArtGallery from './ArtGallery/ArtGallery';
+import BackgroundColors from './BackgroundColors/BackgroundColors';
 import ArtCard from './Features/ArtCards/ArtCard';
 import Features from './Features/Features';
 import ArtPlatforms from './Features/Platfotms/ArtPlatforms';
@@ -48,6 +50,9 @@ const Featured = () => {
                 </div>
                 <div className="mx-auto my-12 drop-shadow-2xl xs:[320px] sm:[450px] md:[724px] lg:w-[1024px] xl:[1280px]  border-2 border-r-emerald-400 ">
                     <ArtGallery></ArtGallery>
+                </div>
+                <div className="mx-auto my-12 drop-shadow-2xl xs:[320px] sm:[450px] md:[724px] lg:w-[1024px] xl:[1280px]  border-2 border-r-emerald-400 ">
+                    <BackgroundColors></BackgroundColors>
                 </div>
             </div>
         </div>

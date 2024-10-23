@@ -17,7 +17,7 @@ const MinimalismPointillism = () => {
     return (
         <div>
             <div>
-                <MiniHeaderCard headerText={'Minimalism X Pointillism Art'}></MiniHeaderCard>
+                <MiniHeaderCard  bg_clr={'bg-soft-lilac-glow'} headerText={'Minimalism X Pointillism Art'}></MiniHeaderCard>
                 <div>
                 <Swiper
                     spaceBetween={30}

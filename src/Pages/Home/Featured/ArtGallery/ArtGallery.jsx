@@ -2,6 +2,7 @@ import HeaderCard from "../../../../Components/Cards/HeaderCard/HeaderCard";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Arts from "./Arts/Arts";
+import MiniHeaderCard from "../../../../Components/Cards/MiniHeaderCard/MiniHeaderCard";
 
 const ArtGallery = () => {
     return (
@@ -19,7 +20,7 @@ const ArtGallery = () => {
                     </TabList>
 
                     <TabPanel>
-                        <h2>Any content 1</h2>
+                        <MiniHeaderCard headerText={"Illustration"} bg_clr={'bg-sunset-overdrive'} ></MiniHeaderCard>
                         <Arts></Arts>
                     </TabPanel>
                     <TabPanel>

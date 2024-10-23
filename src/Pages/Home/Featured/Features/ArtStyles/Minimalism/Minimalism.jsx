@@ -7,7 +7,7 @@ import MiniHeaderCard from '../../../../../../Components/Cards/MiniHeaderCard/Mi
 const Minimalism = () => {
     return (
         <>
-            <MiniHeaderCard headerText={'Minimalism'}></MiniHeaderCard>
+            <MiniHeaderCard  bg_clr={'bg-tropical-forest'} headerText={'Minimalism'}></MiniHeaderCard>
             <div className="relative h-[500px]"> {/* Constrain the parent container height */}
                 <Swiper
                     className="mySwiper swiper-h h-full"

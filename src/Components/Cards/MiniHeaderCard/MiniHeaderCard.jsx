@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 
-const MiniHeaderCard = ({headerText}) => {
+const MiniHeaderCard = ({headerText, bg_clr}) => {
     return (
-        <div className="bg-forest-sunrise w-full flex flex-col items-center justify-center text-center ">
+        <div className={`${bg_clr} w-full flex flex-col items-center justify-center text-center`}>
             <h1 className="my-6 text-3xl font-bold font-newAmsterdam">{headerText}</h1>
                 
             {/* <p className="mb-12 font-playfair">
@@ -15,5 +15,6 @@ const MiniHeaderCard = ({headerText}) => {
 export default MiniHeaderCard;
 
 MiniHeaderCard.propTypes = {
-    headerText: PropTypes.string
+    headerText: PropTypes.string,
+    bg_clr:PropTypes.string,
 }
