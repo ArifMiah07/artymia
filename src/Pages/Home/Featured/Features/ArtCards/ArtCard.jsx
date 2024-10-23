@@ -6,15 +6,15 @@ import { EffectCards } from 'swiper/modules';
 import img1 from '../../../../../assets/images/card-img/1.jpg';
 import img2 from '../../../../../assets/images/card-img/2.jpg';
 import img3 from '../../../../../assets/images/card-img/3.jpg';
-import img4 from '../../../../../assets/images/card-img/4.jpg';
-import img5 from '../../../../../assets/images/card-img/5.jpg';
-import img6 from '../../../../../assets/images/card-img/6.jpg';
-import img7 from '../../../../../assets/images/card-img/7.jpg';
-import img8 from '../../../../../assets/images/card-img/8.jpg';
-import img9 from '../../../../../assets/images/card-img/9.jpg';
-import img10 from '../../../../../assets/images/card-img/10.jpg';
-import img11 from '../../../../../assets/images/card-img/11.jpg';
-import img12 from '../../../../../assets/images/card-img/12.jpg';
+// import img4 from '../../../../../assets/images/card-img/4.jpg';
+// import img5 from '../../../../../assets/images/card-img/5.jpg';
+// import img6 from '../../../../../assets/images/card-img/6.jpg';
+// import img7 from '../../../../../assets/images/card-img/7.jpg';
+// import img8 from '../../../../../assets/images/card-img/8.jpg';
+// import img9 from '../../../../../assets/images/card-img/9.jpg';
+// import img10 from '../../../../../assets/images/card-img/10.jpg';
+// import img11 from '../../../../../assets/images/card-img/11.jpg';
+// import img12 from '../../../../../assets/images/card-img/12.jpg';
 // ... other image imports
 import HeaderCard from '../../../../../Components/Cards/HeaderCard/HeaderCard';
 import MiniHeaderCard from '../../../../../Components/Cards/MiniHeaderCard/MiniHeaderCard';
@@ -49,10 +49,10 @@ const ArtCard = () => {
                             <SwiperSlide>
                                 <img src={img3} alt="" className="w-full h-auto object-cover" />
                             </SwiperSlide>
-                            <SwiperSlide>
+                            {/* <SwiperSlide>
                                 <img src={img4} alt="" className="w-full h-auto object-cover" />
-                            </SwiperSlide>
-                            <SwiperSlide>
+                            </SwiperSlide> */}
+                            {/* <SwiperSlide>
                                 <img src={img5} alt="" className="w-full h-auto object-cover" />
                             </SwiperSlide>
                             <SwiperSlide>
@@ -75,7 +75,7 @@ const ArtCard = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={img12} alt="" className="w-full h-auto object-cover" />
-                            </SwiperSlide>
+                            </SwiperSlide> */}
                             {/* Add more SwiperSlide components as needed */}
                         </Swiper>
                     </div>
@@ -102,7 +102,7 @@ const ArtCard = () => {
                             <SwiperSlide>
                                 <img src={img3} alt="" className="w-full h-auto object-cover" />
                             </SwiperSlide>
-                            <SwiperSlide>
+                            {/* <SwiperSlide>
                                 <img src={img4} alt="" className="w-full h-auto object-cover" />
                             </SwiperSlide>
                             <SwiperSlide>
@@ -128,7 +128,7 @@ const ArtCard = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={img12} alt="" className="w-full h-auto object-cover" />
-                            </SwiperSlide>
+                            </SwiperSlide> */}
                             {/* Add more SwiperSlide components as needed */}
                         </Swiper>
                     </div>

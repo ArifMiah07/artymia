@@ -34,6 +34,28 @@ const PromptEngineering = () => {
                     </TabPanel>
                 </Tabs>
             </div>
+            <div>
+                <Tabs>
+                    <TabList>
+                    <Tab>Illustration</Tab>
+                    <Tab> Minimalism X Pointillism Art</Tab>
+                    <Tab> Minimalism</Tab>
+                    </TabList>
+
+                    <TabPanel>
+                    <h2>Any content 1</h2>
+                        {/* <Illustration></Illustration> */}
+                    </TabPanel>
+                    <TabPanel>
+                    <h2>Any content 2</h2>
+                        {/* <MinimalismPointillism></MinimalismPointillism> */}
+                    </TabPanel>
+                    <TabPanel>
+                    <h2>Any content 2</h2>
+                        {/* <Minimalism></Minimalism> */}
+                    </TabPanel>
+                </Tabs>
+            </div>
         </>
     );
 };
