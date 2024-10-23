@@ -1,4 +1,4 @@
-
+import PropTypes from "prop-types";
 
 const BlogPostCard = ({ image, title, description }) => {
     return (
@@ -13,3 +13,10 @@ const BlogPostCard = ({ image, title, description }) => {
 };
 
 export default BlogPostCard;
+
+
+BlogPostCard.propTypes = {
+  image: PropTypes.string,
+  title:PropTypes.string,
+  description:PropTypes.string,
+}

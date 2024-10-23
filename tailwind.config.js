@@ -105,6 +105,8 @@ export default {
         'sunflower-yellow': '#FFC107',
         'teal-blue': '#008080',
         'bright-magenta': '#FF00FF',
+        //50
+        
       },
       backgroundImage: {
         'sunset-overdrive': 'linear-gradient(135deg, #FF6B6B, #FFD700)',

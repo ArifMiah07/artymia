@@ -72,24 +72,45 @@ const Blog = () => {
     return (
         <div className="container mx-auto px-4">
             <h1 className="text-3xl font-bold my-6">My Blog</h1>
-            <Link className="" to={'/blog-post-0001'}>
-                <div className="flex">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                        <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/KEvhbihLRdOJB1hgm8-bIw'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
-                        <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/7lwUWVtqTYCTZ1oh_EAFsA'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
-                        <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/3Oz0AaWST76zJvBRMtqW1w'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
-                        <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/xiBrDQGaQ6Whuxb6qUYNPQ'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
-                        <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/SKzmE-SQTZe6Y84OvPaJqw'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
-                        <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/7gqSWaunRm21zh6fwhzSFA'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
-                        <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/2CUEdOYTSYKY7jaTQw6w9w'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
-                        <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/lzdZFXVrQC6_UkeA8QN2ZQ'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
-                        <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/EYoswn9WRWqR_D7sjCiYxQ'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
-                        <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/yMeJO4ZVQVieZlK6JoOFlw'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
-                        <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/JcAFdMRGQ5S6Mh55vU8uGA'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
-                    </div>
+            <div className="">
+                <div className="flex items-center">
+                    <Link className="" to={'/blog-post-0001'}>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                                <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/KEvhbihLRdOJB1hgm8-bIw'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                            </div>
+                    </Link>
                 </div>
-            </Link>
-            
+                <div>
+                    <Link className="" to={'/blog-post-0002'}>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                                <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/7lwUWVtqTYCTZ1oh_EAFsA'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                            </div>
+                    </Link>
+                </div>
+                <div>
+                    <Link className="" to={'/blog-post-0003'}>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                                <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/3Oz0AaWST76zJvBRMtqW1w'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                                
+                            </div>
+                    </Link>
+                </div>
+                {/* <Link className="" to={'/blog-post-0003'}>
+                    <div className="flex">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                            <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/3Oz0AaWST76zJvBRMtqW1w'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                            <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/xiBrDQGaQ6Whuxb6qUYNPQ'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                            <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/SKzmE-SQTZe6Y84OvPaJqw'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                            <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/7gqSWaunRm21zh6fwhzSFA'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                            <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/2CUEdOYTSYKY7jaTQw6w9w'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                            <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/lzdZFXVrQC6_UkeA8QN2ZQ'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                            <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/EYoswn9WRWqR_D7sjCiYxQ'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                            <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/yMeJO4ZVQVieZlK6JoOFlw'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                            <BlogPostCard image={'https://ideogram.ai/assets/image/lossless/response/JcAFdMRGQ5S6Mh55vU8uGA'} title={'100 background colors'} description={'100+ Beautiful Gradient Color Collections for Modern Web Design'} ></BlogPostCard>
+                        </div>
+                    </div>
+                </Link> */}
+                </div>
         </div>
     );
 };

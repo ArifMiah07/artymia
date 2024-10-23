@@ -16,6 +16,8 @@
 
 import ArtGallery from './ArtGallery/ArtGallery';
 import BackgroundColors from './BackgroundColors/BackgroundColors';
+import BackgroundColors2 from './BackgroundColors/BackgroundColors2';
+import BackgroundColors3 from './BackgroundColors/BackgroundColors3';
 import ArtCard from './Features/ArtCards/ArtCard';
 import Features from './Features/Features';
 import ArtPlatforms from './Features/Platfotms/ArtPlatforms';
@@ -53,6 +55,12 @@ const Featured = () => {
                 </div>
                 <div className="mx-auto my-12 drop-shadow-2xl xs:[320px] sm:[450px] md:[724px] lg:w-[1024px] xl:[1280px]  border-2 border-r-emerald-400 ">
                     <BackgroundColors></BackgroundColors>
+                </div>
+                <div className="mx-auto my-12 drop-shadow-2xl xs:[320px] sm:[450px] md:[724px] lg:w-[1024px] xl:[1280px]  border-2 border-r-emerald-400 ">
+                    <BackgroundColors2></BackgroundColors2>
+                </div>
+                <div className="mx-auto my-12 drop-shadow-2xl xs:[320px] sm:[450px] md:[724px] lg:w-[1024px] xl:[1280px]  border-2 border-r-emerald-400 ">
+                    <BackgroundColors3></BackgroundColors3>
                 </div>
             </div>
         </div>
