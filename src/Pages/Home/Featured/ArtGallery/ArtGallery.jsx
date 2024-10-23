@@ -15,24 +15,23 @@ const ArtGallery = () => {
                     <Tab>Illustration</Tab>
                     <Tab> Minimalism X Pointillism Art</Tab>
                     <Tab> Minimalism</Tab>
-                    <Tab> Arts</Tab>
+                    <Tab> Favorite</Tab>
                     </TabList>
 
                     <TabPanel>
-                    <h2>Any content 1</h2>
-                        {/* <Illustration></Illustration> */}
+                        <h2>Any content 1</h2>
+                        <Arts></Arts>
                     </TabPanel>
                     <TabPanel>
-                    <h2>Any content 2</h2>
-                        {/* <MinimalismPointillism></MinimalismPointillism> */}
+                        <h2>Any content 2</h2>
+                    <Arts></Arts>
                     </TabPanel>
                     <TabPanel>
-                    <h2>Any content 2</h2>
-                        {/* <Minimalism></Minimalism> */}
+                        <h2>Any content 2</h2>
+                        <Arts></Arts>
                     </TabPanel>
                     <TabPanel>
-                    <h2>Your Favorite</h2>
-                        {/* <Minimalism></Minimalism> */}
+                        <h2>Your Favorite Arts</h2>
                         <Arts></Arts>
                     </TabPanel>
                 </Tabs>
