@@ -1,6 +1,7 @@
 [
       {
         "name": "Sunset over the Ocean",
+        "img_id":"1",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/cNGBRKcvQI6o8wLI8jcldQ",
         "price": 1500,
         "width": 1920,
@@ -9,6 +10,7 @@
       },
       {
         "name": "Abstract Dreams",
+        "img_id":"2",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/LGkSF7eYSpKsBVgmsvU39w",
         "price": 2300,
         "width": 1920,
@@ -17,6 +19,7 @@
       },
       {
         "name": "Mountain Majesty",
+        "img_id":"3",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/onX9mcDdSnKVO_aPXlgRYQ",
         "price": 1800,
         "width": 1920,
@@ -25,6 +28,7 @@
       },
       {
         "name": "City Lights",
+        "img_id":"4",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/PddaINqfR1i4v_c8BCLGmA",
         "price": 2100,
         "width": 1920,
@@ -33,6 +37,7 @@
       },
       {
         "name": "Golden Fields",
+        "img_id":"5",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/YehBu9iwTF6_zaAS_WdzIg",
         "price": 1700,
         "width": 1920,
@@ -41,6 +46,7 @@
       },
       {
         "name": "Deep Forest",
+        "img_id":"6",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/DiZL2O9oTjaRkebWY3fRIw",
         "price": 1900,
         "width": 1920,
@@ -49,6 +55,7 @@
       },
       {
         "name": "Floral Harmony",
+        "img_id":"7",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/OFOXUkr8RLWeZmD0w0tOKA",
         "price": 1200,
         "width": 1920,
@@ -57,6 +64,7 @@
       },
       {
         "name": "Stormy Seas",
+        "img_id":"8",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/YtAJ6j8uSKiuYIYB3e07yw",
         "price": 2400,
         "width": 1920,
@@ -65,6 +73,7 @@
       },
       {
         "name": "Winter's Embrace",
+        "img_id":"9",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/L03PxL9DTBGYs1vGCGzj4A",
         "price": 1600,
         "width": 1920,
@@ -73,6 +82,7 @@
       },
       {
         "name": "Desert Mirage",
+        "img_id":"10",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/61LgDZGGRHuYXv9_lbowQg",
         "price": 2000,
         "width": 1920,
@@ -81,6 +91,7 @@
       },
       {
         "name": "Morning Dew",
+        "img_id":"11",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/BfZwe9D0SLOa0TCJJOTyMQ",
         "price": 1100,
         "width": 1920,
@@ -89,6 +100,7 @@
       },
       {
         "name": "Whispers of Autumn",
+        "img_id":"12",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/28zVYIAEQCuMI2B2Ua323Q",
         "price": 1800,
         "width": 1920,
@@ -97,6 +109,7 @@
       },
       {
         "name": "Cosmic Journey",
+        "img_id":"13",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/_rmA9uSGT_2Y6MeGB5-70w",
         "price": 2500,
         "width": 1920,
@@ -105,6 +118,7 @@
       },
       {
         "name": "Reflections",
+        "img_id":"14",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/sYRQg4cXRsal4fRckpzbQA",
         "price": 1400,
         "width": 1920,
@@ -113,6 +127,7 @@
       },
       {
         "name": "The Lonely Path",
+        "img_id":"15",
         "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/QQF0RvyKRt6f6Qf_w43odQ",
         "price": 1700,
         "width": 1920,
@@ -121,6 +136,7 @@
       },
       {
         "name": "Underwater Dreams",
+        "img_id":"16",
         "image_link": "https://img.freepik.com/free-photo/beautiful-landscape-background_23-2151855316.jpg?ga=GA1.1.1926990459.1724237602&semt=ais_hybrid",
         "price": 2600,
         "width": 1920,
@@ -129,7 +145,8 @@
       },
       {
         "name": "Evening Glow",
-        "image_link": "",
+        "img_id":"17",
+        "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/RtRPE5hDSUmOKBg1g5ec0g",
         "price": 1300,
         "width": 1920,
         "height": 1080,
@@ -137,7 +154,8 @@
       },
       {
         "name": "The Red Horizon",
-        "image_link": "",
+        "img_id":"18",
+        "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/hypfK60CSt6_qUjpn7Ifgw",
         "price": 2200,
         "width": 1920,
         "height": 1080,
@@ -145,7 +163,8 @@
       },
       {
         "name": "Winds of Change",
-        "image_link": "",
+        "img_id":"19",
+        "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/0c4ElXhDTfWXKTAXtvbE0g",
         "price": 2000,
         "width": 1920,
         "height": 1080,
@@ -153,7 +172,8 @@
       },
       {
         "name": "Summer Bliss",
-        "image_link": "",
+        "img_id":"20",
+        "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/8CJil2WMQm6310C1dc0PBg",
         "price": 1500,
         "width": 1920,
         "height": 1080,
@@ -161,7 +181,8 @@
       },
       {
         "name": "Celestial Dance",
-        "image_link": "",
+        "img_id":"21",
+        "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/vVTrN5xFR5Ss77L30EMbqQ",
         "price": 2400,
         "width": 1920,
         "height": 1080,
@@ -169,7 +190,8 @@
       },
       {
         "name": "Twilight Forest",
-        "image_link": "",
+        "img_id":"22",
+        "image_link": "https://ideogram.ai/assets/progressive-image/balanced/response/l6ZSvPOfRamyw4-m6Y1toQ",
         "price": 1700,
         "width": 1920,
         "height": 1080,
@@ -177,7 +199,8 @@
       },
       {
         "name": "Golden Horizon",
-        "image_link": "",
+        "img_id":"23",
+        "image_link": "https://cdn.leonardo.ai/users/766a8729-3858-46a0-a926-15473b5ddffc/generations/a6ccf147-de0e-4534-82a3-2dc05d5f11f0/variations/universal_upscale_0_a6ccf147-de0e-4534-82a3-2dc05d5f11f0_0.jpg?w=512",
         "price": 2200,
         "width": 1920,
         "height": 1080,
@@ -185,7 +208,8 @@
       },
       {
         "name": "Lavender Fields",
-        "image_link": "",
+        "img_id":"24",
+        "image_link": "https://cdn.leonardo.ai/users/65943972-69aa-4b52-90c5-f9c84d4adfe5/generations/d160d635-c636-46e2-93d4-aaced0788f56/Leonardo_Diffusion_XL_A_hyper_futuristic_war_vehicle_Templar_R_0.jpg?w=512",
         "price": 1800,
         "width": 1920,
         "height": 1080,
@@ -193,7 +217,8 @@
       },
       {
         "name": "Mountain Reflections",
-        "image_link": "",
+        "img_id":"25",
+        "image_link": "https://cdn.leonardo.ai/users/5e22483b-f9d2-41c8-bf51-5d07494c3223/generations/65610a32-bdda-49e8-9d6c-39f59faf875b/variations/Default_A_rugged_barbarian_king_with_a_fiery_red_beard_clad_in_1_65610a32-bdda-49e8-9d6c-39f59faf875b_0.jpg?w=512",
         "price": 2100,
         "width": 1920,
         "height": 1080,
@@ -201,7 +226,8 @@
       },
       {
         "name": "City Skyline",
-        "image_link": "",
+        "img_id":"26",
+        "image_link": "https://cdn.leonardo.ai/users/479a1707-b865-4865-89d8-325576197601/generations/5823b0b0-7ff5-4867-99a7-59972b7901a4/Leonardo_Phoenix_A_slice_of_pizza_with_tentacles_and_mushrooms_1.jpg?w=512",
         "price": 2300,
         "width": 1920,
         "height": 1080,
@@ -209,7 +235,8 @@
       },
       {
         "name": "Serenity",
-        "image_link": "",
+        "img_id":"27",
+        "image_link": "https://cdn.leonardo.ai/users/a8852315-845c-4a82-9e6c-97cd163ac5ee/generations/425494ee-a138-42cb-bc67-e5d0fd53703c/Leonardo_Phoenix_A_whimsical_professionalgrade_graphic_design_0.jpg?w=512",
         "price": 1900,
         "width": 1920,
         "height": 1080,
@@ -217,7 +244,8 @@
       },
       {
         "name": "Moonlit Night",
-        "image_link": "",
+        "img_id":"28",
+        "image_link": "https://cdn.leonardo.ai/users/ec06ebc5-3859-487c-bbd1-e96b798864ef/generations/5668ac82-648e-4952-9ece-3903c15e9911/Leonardo_Phoenix_A_whimsical_illustration_of_a_mousedeer_known_2.jpg?w=512",
         "price": 2000,
         "width": 1920,
         "height": 1080,
@@ -225,7 +253,8 @@
       },
       {
         "name": "Crimson Skies",
-        "image_link": "",
+        "img_id":"29",
+        "image_link": "https://cdn.leonardo.ai/users/0be12a88-0844-41ee-a494-cb7a4155bc73/generations/6c5f5c47-56ef-40df-9ee1-75d80b78bbf4/variations/Default_Witch_art_photography_inspired_hifi_chrome_gra_3_6c5f5c47-56ef-40df-9ee1-75d80b78bbf4_0.jpg?w=512",
         "price": 1700,
         "width": 1920,
         "height": 1080,
@@ -233,7 +262,8 @@
       },
       {
         "name": "Ethereal Beauty",
-        "image_link": "",
+        "img_id":"30",
+        "image_link": "https://cdn.leonardo.ai/users/af52a414-2e89-43c7-8b00-bba7ea0fb860/generations/c0e4ac55-4492-4bd9-88d7-13a5b31d1fb3/Leonardo_Phoenix_A_whimsical_cartoonstyle_dragon_with_a_soft_r_2.jpg?w=512",
         "price": 2500,
         "width": 1920,
         "height": 1080,
@@ -241,7 +271,8 @@
       },
       {
         "name": "Tropical Escape",
-        "image_link": "",
+        "img_id":"31",
+        "image_link": "https://cdn.leonardo.ai/users/79e650d5-39fd-4e58-ba2b-5804afbc3633/generations/effd6ece-f565-42d4-92b0-9b52459a9547/AlbedoBase_XL_glowing_pastel_purple_phosphoresence_woman_insta_1.jpg?w=512",
         "price": 2100,
         "width": 1920,
         "height": 1080,
