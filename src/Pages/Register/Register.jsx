@@ -1,7 +1,7 @@
 
 import { Link, } from "react-router-dom";
 
-import register from '../../assets/images/auth/register.jpg';
+// import register from '../../assets/images/auth/register.jpg';
 
 import { FaEye, FaEyeSlash, FaFacebook, FaLinkedin } from "react-icons/fa";
 
@@ -11,7 +11,7 @@ import { FcGoogle } from "react-icons/fc";
 
 // import { AuthContext } from "../../Contexts/AuthProvider";
 
-import NavBar from "../Shared/NavBar/NavBar";
+// import NavBar from "../Shared/NavBar/NavBar";
 
   
 
@@ -107,7 +107,7 @@ const Register = () => {
 
             <div>
 
-                <NavBar></NavBar>
+                {/* <NavBar></NavBar> */}
 
             </div>
 
@@ -117,7 +117,7 @@ const Register = () => {
 
                 <div className="text-center lg:text-left lg:w-1/2">
 
-                    <img src={register} alt="" />
+                    {/* <img src={register} alt="" /> */}
 
                 </div>
 

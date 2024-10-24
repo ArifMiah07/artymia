@@ -8,6 +8,7 @@ import Blogs from "../Pages/Blogs/Blogs";
 import BlogPost from "../Pages/Blogs/BlogPost";
 import BlogPost2 from "../Pages/Blogs/BlogPost2";
 import BlogPost3 from "../Pages/Blogs/BlogPost3";
+import Register from "../Pages/Register/Register";
 // import Explore from "../Pages/Explore/Explore";
 
   const router = createBrowserRouter([
@@ -40,6 +41,10 @@ import BlogPost3 from "../Pages/Blogs/BlogPost3";
           {
             path: '/blog-post-0003',
             element: <BlogPost3></BlogPost3>
+          },
+          {
+            path: '/register',
+            element: <Register></Register>
           }
         ]  
     },
