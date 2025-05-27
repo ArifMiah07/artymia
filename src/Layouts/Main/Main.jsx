@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "../../Pages/Shared/NavBar/NavBar";
+import Footer from "../../Pages/Shared/Footer/Footer";
 
 
 const Main = () => {
@@ -10,6 +11,9 @@ const Main = () => {
             </div>
             <div className="bg-white pt-16">
                 <Outlet></Outlet>
+            </div>
+            <div className="bg-white ">
+                <Footer></Footer>
             </div>
         </div>
     );

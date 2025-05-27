@@ -6,8 +6,8 @@ const Banner = () => {
         <div className="mx-auto my-12 drop-shadow-2xl sm:[350px] md:[724px] lg:w-[1024px] xl:[1280px] border-2 border-r-emerald-400">
             {/* Text that will be visible on hover */}
             <div className="bg-forest-sunrise w-full flex flex-col items-center justify-center text-center ">
-                <h1 className="my-6 text-3xl font-bold font-playfair">Welcome to Artymia</h1>
-                <p className="mb-12 text-white font-newAmsterdam">
+                <h1 className="mt-6 mb-4 text-3xl font-bold font-playfair">Welcome to Artymia</h1>
+                <p className="mb-12 text-white font-robot lg:text-lg">
                 Explore our curated selection of exceptional artworks, <br />showcasing the finest and most captivating pieces from talented artists worldwide.
                 </p>
             </div>
