@@ -8,7 +8,7 @@ import Featured from "../Featured/Featured";
 const Home = () => {
   return (
     <div className="min-h-screen bg-white ">
-      <div className=" bg-white">
+      <div className=" bg-white ">
         <Banner></Banner>
       </div>
       <div className=" bg-white">

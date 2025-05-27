@@ -14,7 +14,7 @@ const NavBar = () => {
     <li> <NavLink to={'/blogs'}>Blogs</NavLink> </li>
     <li> <NavLink to={'/popular'}>Popular</NavLink> </li>
     <li> <NavLink to={'/prompting'}>Prompting</NavLink> </li>
-    <li> <NavLink to={'/register'}>Register</NavLink> </li>
+    <li> <NavLink to={'/auth/register'}>Register</NavLink> </li>
 
     </>
     return (

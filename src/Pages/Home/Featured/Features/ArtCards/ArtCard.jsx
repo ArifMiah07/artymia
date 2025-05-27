@@ -44,13 +44,13 @@ const ArtCard = () => {
         <HeaderCard headingText={"Edited Art Collection"}></HeaderCard>
       </header>
       {/* main section */}
-      <main className="px-10">
+      <main className="px-0">
         {/* section 1 */}
-        <section className="border border-gray-700">
+        <section className="border mb-0 border-gray-700">
           <MiniHeaderCard
             headerText={"Anime"}
             bg_clr={"bg-purple-haze"}></MiniHeaderCard>
-          <div className="p-8 border-y-4 border-gray-200">
+          <div className=" p-8 border-y-4 border-gray-200">
             <Swiper
               effect={"cards"}
               grabCursor={true}
@@ -108,11 +108,25 @@ const ArtCard = () => {
               </SwiperSlide>
               {/* Add more SwiperSlide components as needed */}
             </Swiper>
+
+            <div className="">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {imgLink.map((img, index) => (
+                  <div key={index}>
+                    <img
+                      src={img}
+                      alt={`img number ${index + 1}`}
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </section>
 
         {/* section 2 */}
-        <section className="border border-gray-700 my-12">
+        {/* <section className="border border-gray-700 my-12">
           <MiniHeaderCard
             bg_clr={"bg-cyber-space"}
             headerText={"Anime"}></MiniHeaderCard>
@@ -127,7 +141,7 @@ const ArtCard = () => {
                   />
                 </div>
               ))}
-            </div>
+            </div> */}
 
             {/* <Swiper
               effect={"cards"}
@@ -174,8 +188,8 @@ const ArtCard = () => {
                             </SwiperSlide> */}
             {/* Add more SwiperSlide components as needed */}
             {/* </Swiper> */}
-          </div>
-        </section>
+          {/* </div>
+        </section> */}
       </main>
     </div>
   );
