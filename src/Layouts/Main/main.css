@@ -1,12 +1,13 @@
-.gradient-background {
+/* .gradient-background {
   background: linear-gradient(120deg, #ff6b6b, #f94d6a, #4ecdc4, #5f9ea0, #96c93d);
   background-size: 400% 400%;
   animation: gradient-animation 15s ease infinite;
-  filter: blur(30px); /* Applies the blur effect */
-}
+  filter: blur(30px); 
+} */
+/* Applies the blur effect */
 
 /* Keyframe animation for smooth gradient movement */
-@keyframes gradient-animation {
+/* @keyframes gradient-animation {
   0% {
       background-position: 0% 50%;
   }
@@ -16,4 +17,4 @@
   100% {
       background-position: 0% 50%;
   }
-}
+} */

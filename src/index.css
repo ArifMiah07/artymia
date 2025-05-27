@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color: white;
+    background: white;
+}
+
 
 .raleway{
   font-family: "Raleway", sans-serif;
